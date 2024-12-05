@@ -28,6 +28,7 @@ If prompted, update to the latest Gradle version.
 4) Check Dependencies:
 
 Open the app/build.gradle file.
+
 Ensure the following dependencies are included:
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -36,6 +37,7 @@ dependencies {
     implementation "com.couchbase.lite:couchbase-lite-android:$couchbase_lite_version"
     // Add other necessary dependencies
 }
+
 5) Prepare the Questions:
 
 Verify that the questions.json file in the assets folder contains the quiz questions.
@@ -52,7 +54,9 @@ Resolve any build errors that may occur.
 Run the Application:
 
 8) Before running the Android application, run the Python server separately.
+
 Open another terminal window, and navigate to the python-server directory
+
 cd python-server
 The requirements.txt file in the python-server directory lists the necessary dependencies. Install them using pip:
 pip install -r requirements.txt
@@ -74,7 +78,7 @@ Take a photo or select an image to determine the quiz category.
 Answer the quiz questions as they appear.
 After completing the quiz, view your score and check the leaderboard.
 
-10)Debugging:
+10) Debugging:
 
 If you encounter any issues, check the Logcat in Android Studio for error messages.
 
