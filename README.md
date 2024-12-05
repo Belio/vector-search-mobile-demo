@@ -13,7 +13,7 @@ Ensure you have the Java Development Kit (JDK) installed on your system.
 
 2) Clone the Repository:
 
-git clone [https://github.com/your-username/quiz-app-couchbase-lite.git
+git clone https://github.com/your-username/quiz-app-couchbase-lite.git
 cd quiz-app-couchbase-lite
 
 3) Open the Project:
