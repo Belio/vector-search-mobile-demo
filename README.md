@@ -30,6 +30,7 @@ If prompted, update to the latest Gradle version.
 Open the app/build.gradle file.
 
 Ensure the following dependencies are included:
+```json
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "androidx.core:core-ktx:$core_ktx_version"
@@ -37,6 +38,7 @@ dependencies {
     implementation "com.couchbase.lite:couchbase-lite-android:$couchbase_lite_version"
     // Add other necessary dependencies
 }
+```
 
 5) Prepare the Questions:
 
